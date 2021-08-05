@@ -7,7 +7,9 @@ public class Calulator {
      */
     public int add(final int num1, final int num2) {
         int result = num1 + num2;
+        System.out.println("addition is " +result );
         return result;
+
     }
 
     /**
@@ -17,6 +19,7 @@ public class Calulator {
      */
     public int substract(final int num1, final int num2) {
         int result = num1 - num2;
+        System.out.println("Sub is " +result );
         return result;
     }
 
@@ -27,6 +30,7 @@ public class Calulator {
      */
     public int multiply(final int num1, final int num2) {
         int result = num1 * num2;
+        System.out.println("Multi " +result );
         return result;
     }
 
@@ -37,6 +41,7 @@ public class Calulator {
      */
     public double divide(final double num1, final double num2) {
          double result = num1 / num2;
+        System.out.println("Div " +result );
         return result;
     }
 

@@ -27,12 +27,16 @@ public final class Application {
         Calulator mani = new Calulator();
         if (select == 1) {
             int c = mani.add(a, b);
+
         } else if (select == 2) {
             int c = mani.substract(a, b);
+
         } else if (select == multi) {
             int c = mani.multiply(a, b);
+
         } else {
             double c = mani.divide(a, b);
+
         }
 
     }
