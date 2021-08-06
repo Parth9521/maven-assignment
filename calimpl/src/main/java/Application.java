@@ -24,7 +24,7 @@ public final class Application {
             System.out.println("wrong choice ");
             select = scan.nextInt();
         }
-        Calulator mani = new Calulator();
+        Calculator mani = new Calculator();
         if (select == 1) {
             int c = mani.add(a, b);
 
